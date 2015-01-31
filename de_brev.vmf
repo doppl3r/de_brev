@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6592"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_dust"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
 	solid
 	{
 		"id" "2"
@@ -33,7 +33,7 @@ world
 		{
 			"id" "1"
 			"plane" "(-512 512 64) (0 512 64) (0 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -44,7 +44,7 @@ world
 		{
 			"id" "2"
 			"plane" "(-512 -512 0) (0 -512 0) (0 512 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -55,7 +55,7 @@ world
 		{
 			"id" "3"
 			"plane" "(-512 512 64) (-512 -512 64) (-512 -512 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -66,7 +66,7 @@ world
 		{
 			"id" "4"
 			"plane" "(0 512 0) (0 -512 0) (0 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -77,7 +77,7 @@ world
 		{
 			"id" "5"
 			"plane" "(0 512 64) (-512 512 64) (-512 512 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -88,7 +88,7 @@ world
 		{
 			"id" "6"
 			"plane" "(0 -512 0) (-512 -512 0) (-512 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -109,7 +109,7 @@ world
 		{
 			"id" "7"
 			"plane" "(-512 544 192) (0 544 192) (0 512 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -120,7 +120,7 @@ world
 		{
 			"id" "8"
 			"plane" "(-512 512 64) (0 512 64) (0 544 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -131,7 +131,7 @@ world
 		{
 			"id" "9"
 			"plane" "(-512 544 192) (-512 512 192) (-512 512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -142,7 +142,7 @@ world
 		{
 			"id" "10"
 			"plane" "(0 544 64) (0 512 64) (0 512 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -153,7 +153,7 @@ world
 		{
 			"id" "11"
 			"plane" "(0 544 192) (-512 544 192) (-512 544 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -185,7 +185,7 @@ world
 		{
 			"id" "24"
 			"plane" "(-544 -512 192) (-544 512 192) (-512 512 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -196,7 +196,7 @@ world
 		{
 			"id" "23"
 			"plane" "(-512 -512 64) (-512 512 64) (-544 512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -207,7 +207,7 @@ world
 		{
 			"id" "22"
 			"plane" "(-544 -512 192) (-512 -512 192) (-512 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -218,7 +218,7 @@ world
 		{
 			"id" "21"
 			"plane" "(-544 512 64) (-512 512 64) (-512 512 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -229,7 +229,7 @@ world
 		{
 			"id" "20"
 			"plane" "(-544 512 192) (-544 -512 192) (-544 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -261,7 +261,7 @@ world
 		{
 			"id" "48"
 			"plane" "(32 512 192) (32 0 192) (0 0 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -272,7 +272,7 @@ world
 		{
 			"id" "47"
 			"plane" "(-2.28882e-005 512 64) (0 0 64) (32 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -283,7 +283,7 @@ world
 		{
 			"id" "46"
 			"plane" "(32 512 192) (-2.28882e-005 512 192) (-2.28882e-005 512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -305,7 +305,7 @@ world
 		{
 			"id" "44"
 			"plane" "(32 0 192) (32 512 192) (32 512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -337,7 +337,7 @@ world
 		{
 			"id" "60"
 			"plane" "(0 0 64) (1280 0 64) (1280 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -348,7 +348,7 @@ world
 		{
 			"id" "59"
 			"plane" "(0 -512 0) (1280 -512 0) (1280 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -359,7 +359,7 @@ world
 		{
 			"id" "58"
 			"plane" "(0 0 64) (0 -512 64) (0 -512 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -370,7 +370,7 @@ world
 		{
 			"id" "57"
 			"plane" "(1280 0 0) (1280 -512 0) (1280 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -381,7 +381,7 @@ world
 		{
 			"id" "56"
 			"plane" "(1280 0 64) (0 0 64) (0 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -392,7 +392,7 @@ world
 		{
 			"id" "55"
 			"plane" "(1280 -512 0) (0 -512 0) (0 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -413,7 +413,7 @@ world
 		{
 			"id" "72"
 			"plane" "(1280 32 192) (1280 0 192) (32.0009 0 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -424,7 +424,7 @@ world
 		{
 			"id" "71"
 			"plane" "(32 32 64) (32.0009 0 64) (1280 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -435,7 +435,7 @@ world
 		{
 			"id" "70"
 			"plane" "(1280 32 192) (32 32 192) (32 32 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -489,7 +489,7 @@ world
 		{
 			"id" "84"
 			"plane" "(1280 384 64) (2304 384 64) (2304 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -500,7 +500,7 @@ world
 		{
 			"id" "83"
 			"plane" "(1280 -512 0) (2304 -512 0) (2304 384 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -511,7 +511,7 @@ world
 		{
 			"id" "82"
 			"plane" "(1280 384 64) (1280 -512 64) (1280 -512 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -522,7 +522,7 @@ world
 		{
 			"id" "81"
 			"plane" "(2304 384 0) (2304 -512 0) (2304 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -533,7 +533,7 @@ world
 		{
 			"id" "80"
 			"plane" "(2304 384 64) (1280 384 64) (1280 384 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -544,7 +544,7 @@ world
 		{
 			"id" "79"
 			"plane" "(2304 -512 0) (1280 -512 0) (1280 -512 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -565,7 +565,7 @@ world
 		{
 			"id" "96"
 			"plane" "(1248 32 192) (1248 384 192) (1280 384 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -576,7 +576,7 @@ world
 		{
 			"id" "95"
 			"plane" "(1280 32 64) (1280 384 64) (1248 384 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -587,7 +587,7 @@ world
 		{
 			"id" "94"
 			"plane" "(1248 32 192) (1280 32 192) (1280 32 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -598,7 +598,7 @@ world
 		{
 			"id" "93"
 			"plane" "(1248 384 64) (1280 384 64) (1280 384 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -609,7 +609,7 @@ world
 		{
 			"id" "92"
 			"plane" "(1248 384 192) (1248 32 192) (1248 32 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -641,7 +641,7 @@ world
 		{
 			"id" "519"
 			"plane" "(1184 -32 320) (1194.66 21.3203 320) (1216 64 320)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -652,7 +652,7 @@ world
 		{
 			"id" "518"
 			"plane" "(1472 64 64) (1440 96 64) (1397.36 117.327 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -893,7 +893,7 @@ world
 		{
 			"id" "531"
 			"plane" "(1280 416 192) (2304 416 192) (2304 384 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -904,7 +904,7 @@ world
 		{
 			"id" "530"
 			"plane" "(1280 384 64) (2304 384 64) (2304 416 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -915,7 +915,7 @@ world
 		{
 			"id" "529"
 			"plane" "(1280 416 192) (1280 384 192) (1280 384 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -926,7 +926,7 @@ world
 		{
 			"id" "528"
 			"plane" "(2304 416 64) (2304 384 64) (2304 384 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -937,7 +937,7 @@ world
 		{
 			"id" "527"
 			"plane" "(2304 416 192) (1280 416 192) (1280 416 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -969,7 +969,7 @@ world
 		{
 			"id" "543"
 			"plane" "(2336 384 192) (2336 0 192) (2304 0 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -980,7 +980,7 @@ world
 		{
 			"id" "542"
 			"plane" "(2304 384 64) (2304 0 64) (2336 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -991,7 +991,7 @@ world
 		{
 			"id" "541"
 			"plane" "(2336 384 192) (2304 384 192) (2304 384 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1013,7 +1013,7 @@ world
 		{
 			"id" "539"
 			"plane" "(2336 0 192) (2336 384 192) (2336 384 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1045,7 +1045,7 @@ world
 		{
 			"id" "555"
 			"plane" "(2304 0 64) (2560 0 64) (2560 -256 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1056,7 +1056,7 @@ world
 		{
 			"id" "554"
 			"plane" "(2304 -256 0) (2560 -256 0) (2560 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1067,7 +1067,7 @@ world
 		{
 			"id" "553"
 			"plane" "(2304 0 64) (2304 -256 64) (2304 -256 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1078,7 +1078,7 @@ world
 		{
 			"id" "552"
 			"plane" "(2560 0 0) (2560 -256 0) (2560 -256 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1089,7 +1089,7 @@ world
 		{
 			"id" "551"
 			"plane" "(2560 0 64) (2304 0 64) (2304 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1100,7 +1100,7 @@ world
 		{
 			"id" "550"
 			"plane" "(2560 -256 0) (2304 -256 0) (2304 -256 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1121,7 +1121,7 @@ world
 		{
 			"id" "567"
 			"plane" "(2560 0 64) (2816 0 64) (2816 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1132,7 +1132,7 @@ world
 		{
 			"id" "566"
 			"plane" "(2560 -896 0) (2816 -896 0) (2816 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1143,7 +1143,7 @@ world
 		{
 			"id" "565"
 			"plane" "(2560 0 64) (2560 -896 64) (2560 -896 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1154,7 +1154,7 @@ world
 		{
 			"id" "564"
 			"plane" "(2816 0 0) (2816 -896 0) (2816 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1165,7 +1165,7 @@ world
 		{
 			"id" "563"
 			"plane" "(2816 0 64) (2560 0 64) (2560 0 0)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1176,7 +1176,7 @@ world
 		{
 			"id" "562"
 			"plane" "(2816 -896 0) (2560 -896 0) (2560 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1197,7 +1197,7 @@ world
 		{
 			"id" "585"
 			"plane" "(2304 -896 -256) (2304 -1664 -256) (3072 -1664 -256)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1208,7 +1208,7 @@ world
 		{
 			"id" "584"
 			"plane" "(2304 -1664 -256) (2304 -896 -256) (2304 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1219,7 +1219,7 @@ world
 		{
 			"id" "583"
 			"plane" "(3072 -896 -256) (3072 -1664 -256) (3072 -1664 -192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1230,7 +1230,7 @@ world
 		{
 			"id" "582"
 			"plane" "(2304 -896 -256) (3072 -896 -256) (3072 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1241,7 +1241,7 @@ world
 		{
 			"id" "581"
 			"plane" "(3072 -1664 -256) (2304 -1664 -256) (2304 -1664 -192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1252,7 +1252,7 @@ world
 		{
 			"id" "580"
 			"plane" "(2304 -1664 -192) (2304 -896 64) (3072 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1273,7 +1273,7 @@ world
 		{
 			"id" "597"
 			"plane" "(2816 32 192) (2816 0 192) (2336 0 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1284,7 +1284,7 @@ world
 		{
 			"id" "596"
 			"plane" "(2336 32 64) (2336 0 64) (2816 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1295,7 +1295,7 @@ world
 		{
 			"id" "595"
 			"plane" "(2816 32 192) (2336 32 192) (2336 32 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1317,7 +1317,7 @@ world
 		{
 			"id" "593"
 			"plane" "(2816 0 192) (2816 32 192) (2816 32 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1349,7 +1349,7 @@ world
 		{
 			"id" "645"
 			"plane" "(2848 0 192) (2848 -896 192) (2816 -896 192)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1360,7 +1360,7 @@ world
 		{
 			"id" "644"
 			"plane" "(2816 0 64) (2816 -896 64) (2848 -896 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01D"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1371,7 +1371,7 @@ world
 		{
 			"id" "643"
 			"plane" "(2848 0 192) (2816 0 192) (2816 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1393,7 +1393,7 @@ world
 		{
 			"id" "641"
 			"plane" "(2848 -896 192) (2848 0 192) (2848 0 64)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "DEV/DEV_MEASUREWALL01C"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
